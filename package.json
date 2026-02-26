@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "compression": "^1.8.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "helmet": "^8.1.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "npm install && npm run start"
+  }
+}
